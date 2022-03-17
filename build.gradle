@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'com.infolytics'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'javax.mail:mail:1.4.1'
+    implementation 'javax.activation:activation:1.1'
+    testImplementation 'junit:junit:4.13.1'
+}
